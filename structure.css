@@ -1,0 +1,100 @@
+main, nav {display: block;}
+
+* {margin: 0px;}
+
+ul li {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+body {background-color: rgb(80, 80, 80);}
+
+h2, h3, p {margin: 15px; text-align: center;}
+
+th {padding: 0px 20px;}
+
+td {text-align: center;}
+
+td, th {padding: 10px;}
+
+table, td, th {border: 1px solid rgb(122, 122, 122);}
+
+h2:first-letter {font-size: 2em; font-family: serif; color: green;}
+
+p, h2, h3 {color: #ffffff;}
+
+p {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
+table {
+    margin: auto;
+    width: 50%;
+    color: white;
+}
+
+caption {
+    font-size: 2em;
+    padding: 10px;
+    background-color: rgb(1, 102, 51);
+    color: #ffffff;
+}
+
+td:nth-child(1) {
+    width: 30%;
+    background-color: rgb(66, 112, 182);
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(1, 126, 43, 0.486);
+}
+
+th:nth-child(even) {
+    background-color: rgb(250, 159, 159);
+}
+
+main {
+    width: 80%;
+    background-color: beige;
+    margin: 10px auto;
+    padding: 5px;
+    margin-top: 80px;
+    min-width: 728px;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-image: url("images/space.jpg");
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0px;
+    min-width: 528px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+    margin-left: 0px;
+}
+
+nav a {
+    display: block;
+    width: 80px;
+    background-color: #a70000;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: #ffffff;
+    color: #000;
+}
